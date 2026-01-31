@@ -1,0 +1,256 @@
+.page {
+  min-height: 100vh;
+}
+
+.page-hero {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 3rem 0;
+}
+
+.page-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+  max-width: 800px;
+}
+
+.page-content {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Work Categories */
+.work-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 3rem;
+}
+
+.work-category {
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-left: 4px solid #1e3a8a;
+}
+
+.work-category h2 {
+  color: #1e3a8a;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', serif;
+}
+
+.work-category p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Content Types */
+.content-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.content-type {
+  padding: 1.5rem;
+  border: 2px solid #e6f3ff;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.content-type:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);
+}
+
+.content-type h2 {
+  color: #1e3a8a;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.content-type p {
+  color: #374151;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+}
+
+.service {
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-top: 4px solid #1e3a8a;
+}
+
+.service h2 {
+  color: #1e3a8a;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', serif;
+}
+
+.service p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Newsroom Info */
+.newsroom-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+.editorial-standards,
+.coverage-areas,
+.contact-newsroom {
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.editorial-standards h2,
+.coverage-areas h2,
+.contact-newsroom h2 {
+  color: #1e3a8a;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', serif;
+}
+
+.editorial-standards p,
+.contact-newsroom p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.coverage-areas ul {
+  color: #374151;
+  line-height: 1.7;
+  padding-left: 1.5rem;
+}
+
+.coverage-areas li {
+  margin-bottom: 0.5rem;
+}
+
+/* Support Options */
+.support-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+}
+
+.support-option {
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-left: 4px solid #1e3a8a;
+}
+
+.support-option h2 {
+  color: #1e3a8a;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', serif;
+}
+
+.support-option p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Contact Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-section {
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-top: 4px solid #1e3a8a;
+}
+
+.contact-section h2 {
+  color: #1e3a8a;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', serif;
+}
+
+.contact-section p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-note {
+  padding: 2rem;
+  background-color: #e6f3ff;
+  border-radius: 8px;
+  border-left: 4px solid #3b82f6;
+}
+
+.contact-note p {
+  color: #1e3a8a;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .work-categories,
+  .services-grid,
+  .newsroom-info,
+  .support-options,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .content-types {
+    grid-template-columns: 1fr;
+  }
+}
