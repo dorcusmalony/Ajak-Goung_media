@@ -8,21 +8,23 @@ const Home = () => {
         <div className="hero-container">
           <div className="hero-content">
             <h1>AG Media</h1>
-            <h2>Documenting South Sudanese Stories with Newsroom Discipline</h2>
+            <h2> AG Media is a casual  media, communications and cultural documentation platform rooted in South Sudanese experience and Australian professional standards. 
+              The site must communicate credibility, cultural authority, and long-term institutional vision. Think newsroom discipline with ancestral memory.
+              Documenting South Sudanese Stories with Newsroom Discipline</h2>
             <p className="hero-description">
-              We exist to preserve South Sudanese cultural memory and elevate community voices 
+              The flatform exist to preserve South Sudanese cultural memory and elevate community voices 
               through professional documentary filmmaking, investigative journalism, and authentic storytelling. 
               Rooted in ancestral wisdom, driven by Australian media standards, we bridge heritage and modernity 
               for communities, educators, and global audiences.
             </p>
             <div className="hero-actions">
-              <Link to="/media-content" className="btn btn-primary">
+              <Link to="/media-content" className="btn btn-success">
                 <span className="btn-icon">▶</span> Watch Our Documentaries
               </Link>
-              <Link to="/newsroom" className="btn btn-secondary">
-                <span className="btn-icon">📰</span> Read Our Stories
+              <Link to="/newsroom" className="btn btn-success">
+                <span className="btn-icon"></span> Read Our Stories
               </Link>
-              <Link to="/join-support" className="btn btn-tertiary">
+              <Link to="/join-support" className="btn btn-success">
                 <span className="btn-icon">🤝</span> Collaborate With Us
               </Link>
             </div>
@@ -94,7 +96,7 @@ const Home = () => {
           </p>
           <div className="cta-grid">
             <div className="cta-card">
-              <div className="cta-icon">🎬</div>
+              <div className="cta-icon"></div>
               <h3>Share Your Story</h3>
               <p>Have a story that needs to be told? We're listening. Our documentary team works with communities to amplify authentic voices.</p>
               <Link to="/contact" className="cta-link">Get in Touch →</Link>
