@@ -7,7 +7,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-container">
           <div className="hero-content">
-            <h1>AG Media</h1>
+            <h1>Ajak Goung (AG) Media</h1>
             <h2> AG Media is a casual  media, communications and cultural documentation platform rooted in South Sudanese experience and Australian professional standards. 
               The site must communicate credibility, cultural authority, and long-term institutional vision. Think newsroom discipline with ancestral memory.
               Documenting South Sudanese Stories with Newsroom Discipline</h2>
@@ -28,6 +28,43 @@ const Home = () => {
                 <span className="btn-icon">🤝</span> Collaborate With Us
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="brand-section">
+        <div className="container">
+          <div className="brand-content">
+            <h2>Our Brand</h2>
+            <p className="brand-description">
+              AG Media represents the convergence of South Sudanese cultural heritage and  diaspora media excellence. 
+              We are not just storytellers; we are cultural custodians committed to preserving the rich narratives 
+              of our community through professional documentary filmmaking and investigative journalism. Our brand 
+              embodies the principle of "newsroom discipline with ancestral memory," ensuring that every story we tell 
+              honors both the integrity of modern journalism standards and the depth of traditional wisdom. From the 
+              bustling streets of Juba to the multicultural landscapes of Australia, AG Media serves as a bridge 
+              connecting communities, preserving legacies, and amplifying voices that matter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="broadcast-section">
+        <div className="container">
+          <div className="broadcast-content">
+            <h2>Our Broadcast</h2>
+            <p className="broadcast-description">
+              AG Media delivers authentic South Sudanese stories through multiple broadcasting channels, 
+              reaching communities across Australia and beyond. Our comprehensive media approach includes 
+              professional documentary productions showcasing South Sudanese culture, history, and contemporary 
+              issues with cinematic quality and journalistic integrity. We produce in-depth podcast series 
+              featuring conversations with community leaders, elders, and changemakers, available in English 
+              and local South Sudanese languages. Through digital streaming platforms, we broadcast live 
+              cultural events, community gatherings, and educational programs accessible to diaspora communities 
+              worldwide. Our commitment to investigative journalism and feature storytelling ensures comprehensive 
+              coverage of South Sudanese affairs, community achievements, and cultural developments, bridging 
+              the gap between traditional media and authentic community voices.
+            </p>
           </div>
         </div>
       </section>
