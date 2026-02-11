@@ -5,18 +5,20 @@ const About = () => {
     <div className="about">
       <section className="about-hero">
         <div className="container">
-          <h1>About AG Media</h1>
-          <p className="lead">
-            An institutional media platform committed to cultural preservation, journalistic integrity, 
-            and civic responsibility—documenting South Sudanese experience with professional rigor and ancestral respect.
-          </p>
+          <div className="hero-content">
+            <h1>About AG Media</h1>
+            <p className="lead">
+              An institutional media platform committed to cultural preservation, journalistic integrity, 
+              and civic responsibility—documenting South Sudanese experience with professional rigor and ancestral respect.
+            </p>
+          </div>
         </div>
       </section>
 
       <section className="about-story">
         <div className="container">
-          <h2>Our Story</h2>
           <div className="story-content">
+            <h2>Our Story</h2>
             <p>
               AG Media was founded on the recognition that South Sudanese communities—both at home and across 
               the diaspora—needed a media platform that could bridge the gap between ancestral storytelling 
@@ -104,49 +106,56 @@ const About = () => {
         </div>
       </section>
 
-      <section className="founder-profile">
+      <section className="founder-section">
         <div className="container">
           <h2>Leadership & Expertise</h2>
-          <div className="founder-content">
-            <div className="founder-info">
-              <h3>Ajoung Garang</h3>
-              <p className="founder-title">Founder & Editorial Director</p>
-              
-              <div className="founder-bio">
-                <p>
-                  Ajoung Garang brings a dual expertise in South Sudanese cultural knowledge and Australian 
-                  media professionalism to AG Media's mission. With training in documentary filmmaking, 
-                  investigative journalism, and cultural anthropology, Garang established AG Media to address 
-                  the critical gap in professional, culturally-grounded documentation of South Sudanese experience.
-                </p>
-                <p>
-                  Garang's editorial approach combines newsroom rigor with deep community understanding, ensuring 
-                  AG Media maintains both journalistic credibility and cultural authenticity. This dual commitment 
-                  positions the platform as a trusted bridge between South Sudanese communities and broader 
-                  institutional audiences.
-                </p>
+          <div className="founder-profile">
+            <div className="founder-image">
+              <div className="founder-photo">
+                <span className="photo-icon">👤</span>
               </div>
+            </div>
+            <div className="founder-content">
+              <div className="founder-info">
+                <h3>Ajoung Garang</h3>
+                <p className="founder-title">Founder & Editorial Director</p>
+                
+                <div className="founder-bio">
+                  <p>
+                    Ajoung Garang brings a dual expertise in South Sudanese cultural knowledge and Australian 
+                    media professionalism to AG Media's mission. With training in documentary filmmaking, 
+                    investigative journalism, and cultural anthropology, Garang established AG Media to address 
+                    the critical gap in professional, culturally-grounded documentation of South Sudanese experience.
+                  </p>
+                  <p>
+                    Garang's editorial approach combines newsroom rigor with deep community understanding, ensuring 
+                    AG Media maintains both journalistic credibility and cultural authenticity. This dual commitment 
+                    positions the platform as a trusted bridge between South Sudanese communities and broader 
+                    institutional audiences.
+                  </p>
+                </div>
 
-              <div className="founder-credentials">
-                <h4>Professional Focus Areas</h4>
-                <ul>
-                  <li>Documentary filmmaking and oral history preservation</li>
-                  <li>Investigative journalism focused on diaspora communities</li>
-                  <li>Cultural documentation and archival methodology</li>
-                  <li>Cross-cultural media ethics and community accountability</li>
-                  <li>Educational resource development for civic engagement</li>
-                </ul>
-              </div>
+                <div className="founder-credentials">
+                  <h4>Professional Focus Areas</h4>
+                  <ul>
+                    <li>Documentary filmmaking and oral history preservation</li>
+                    <li>Investigative journalism focused on diaspora communities</li>
+                    <li>Cultural documentation and archival methodology</li>
+                    <li>Cross-cultural media ethics and community accountability</li>
+                    <li>Educational resource development for civic engagement</li>
+                  </ul>
+                </div>
 
-              <div className="founder-approach">
-                <h4>Editorial Philosophy</h4>
-                <p>
-                  "Our work is not about individual visibility—it's about institutional responsibility. 
-                  Every documentary, every article, every archive entry serves a larger purpose: preserving 
-                  cultural knowledge, facilitating civic participation, and ensuring South Sudanese voices 
-                  are documented with the professionalism they deserve. This is generational work, built on 
-                  integrity, research, and respect."
-                </p>
+                <div className="founder-approach">
+                  <h4>Editorial Philosophy</h4>
+                  <p>
+                    "Our work is not about individual visibility—it's about institutional responsibility. 
+                    Every documentary, every article, every archive entry serves a larger purpose: preserving 
+                    cultural knowledge, facilitating civic participation, and ensuring South Sudanese voices 
+                    are documented with the professionalism they deserve. This is generational work, built on 
+                    integrity, research, and respect."
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -161,20 +170,6 @@ const About = () => {
             with deep community connection.
           </p>
           <div className="team-grid">
-            <div className="team-member">
-              <div className="team-photo">
-                <div className="photo-placeholder">
-                  <span className="photo-icon">👤</span>
-                </div>
-              </div>
-              <h3>Ajoung Garang</h3>
-              <p className="team-role">Founder & Editorial Director</p>
-              <p className="team-bio">
-                Documentary filmmaker and investigative journalist specializing in South Sudanese cultural 
-                documentation and diaspora narratives.
-              </p>
-            </div>
-
             <div className="team-member">
               <div className="team-photo">
                 <div className="photo-placeholder">

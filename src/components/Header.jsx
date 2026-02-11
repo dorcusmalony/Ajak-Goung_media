@@ -24,7 +24,7 @@ const Header = () => {
             <img src={logoImage} alt="AG Media Logo" className="logo-image" />
             <div className="logo-text">
               <h1>AG Media</h1>
-              <p className="tagline">Cultural Documentation & Communications</p>
+              
             </div>
           </Link>
         </div>
