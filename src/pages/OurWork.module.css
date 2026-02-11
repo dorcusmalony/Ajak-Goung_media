@@ -62,14 +62,24 @@
 }
 
 .filterButton:hover {
-  border-color: #9ca3af;
-  color: #374151;
+  border-color: #198754;
+  color: #198754;
 }
 
 .filterButton.active {
   background-color: #1e3a8a;
   border-color: #1e3a8a;
   color: white;
+}
+
+.filterButton:nth-child(3).active {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.filterButton:nth-child(4).active {
+  background-color: #16a34a;
+  border-color: #16a34a;
 }
 
 /* ================== PROJECT GRID ================== */
@@ -168,6 +178,10 @@
   margin-bottom: 0.25rem;
 }
 
+.projectCard:hover .meta {
+  color: #198754;
+}
+
 .location {
   font-size: 0.875rem;
   color: #9ca3af;
@@ -196,8 +210,9 @@
 }
 
 .loadMoreButton:hover {
-  border-color: #1e3a8a;
-  color: #1e3a8a;
+  border-color: #198754;
+  color: #198754;
+  background-color: rgba(25, 135, 84, 0.05);
 }
 
 /* ================== CONTAINER ================== */
