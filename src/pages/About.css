@@ -79,50 +79,57 @@
 
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .value-card {
-  background: white;
-  padding: 2.5rem;
+  background: linear-gradient(135deg, #198754 0%, #20c997 100%);
+  color: white;
+  padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(25, 135, 84, 0.2);
   transition: all 0.3s ease;
-  border-left: 4px solid #1e3a8a;
-  height: 100%;
+  height: auto;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.value-card:nth-child(even) {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  box-shadow: 0 4px 15px rgba(30, 58, 138, 0.2);
 }
 
 .value-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(30, 58, 138, 0.15);
+  box-shadow: 0 15px 35px rgba(25, 135, 84, 0.3);
 }
 
-.value-icon {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
+.value-card:nth-child(even):hover {
+  box-shadow: 0 15px 35px rgba(30, 58, 138, 0.3);
 }
 
 .value-card h3 {
-  color: #1e3a8a;
-  font-size: 1.4rem;
+  color: white;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   font-weight: 600;
   font-family: 'Times New Roman', 'Georgia', serif;
-  text-align: center;
+  text-align: left;
 }
 
 .value-card p {
-  color: #374151;
-  line-height: 1.7;
-  font-size: 1rem;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  text-align: left;
   flex: 1;
+  margin: 0;
 }
 
 /* Founder Profile Section */

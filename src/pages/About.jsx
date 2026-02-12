@@ -47,7 +47,6 @@ const About = () => {
           <h2>Our Core Values</h2>
           <div className="values-grid">
             <div className="value-card">
-              <div className="value-icon">⚖️</div>
               <h3>Integrity & Truth</h3>
               <p>
                 We maintain unwavering commitment to factual accuracy, ethical journalism, and editorial 
@@ -57,7 +56,6 @@ const About = () => {
             </div>
 
             <div className="value-card">
-              <div className="value-icon">📜</div>
               <h3>Cultural Documentation</h3>
               <p>
                 We preserve South Sudanese heritage through professional archiving of oral histories, cultural 
@@ -67,7 +65,6 @@ const About = () => {
             </div>
 
             <div className="value-card">
-              <div className="value-icon">🏛️</div>
               <h3>Civic Responsibility</h3>
               <p>
                 We serve the public interest through accountability journalism, educational resources, and 
@@ -77,7 +74,6 @@ const About = () => {
             </div>
 
             <div className="value-card">
-              <div className="value-icon">🎓</div>
               <h3>Professional Excellence</h3>
               <p>
                 We uphold Australian media standards while honoring South Sudanese storytelling traditions. 
@@ -86,7 +82,6 @@ const About = () => {
             </div>
 
             <div className="value-card">
-              <div className="value-icon">🌍</div>
               <h3>Community Accountability</h3>
               <p>
                 We remain deeply connected to the communities we document, operating with transparency, 
@@ -95,7 +90,6 @@ const About = () => {
             </div>
 
             <div className="value-card">
-              <div className="value-icon">🔮</div>
               <h3>Institutional Vision</h3>
               <p>
                 We build for longevity, not virality. Our platform is designed to serve communities and 
