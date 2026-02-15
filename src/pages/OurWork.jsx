@@ -202,26 +202,46 @@ const OurWork = () => {
       <section className={styles.projectGrid}>
         <div className={styles.container}>
           <div className={styles.grid}>
-            {visibleProjects.map((project) => (
-              <article key={project.id} className={styles.projectCard}>
+            {visibleProjects.map((project, index) => (
+              <article key={project.id} className={`${styles.projectCard} ${index % 2 === 0 ? styles.greenCard : styles.blueCard}`}>
+                <div className={styles.cardHeader}>
+                  <div className={styles.categoryBadge}>
+                    {project.type === 'documentaries' && 'Documentary'}
+                    {project.type === 'cultural-archive' && 'Cultural Archive'}
+                    {project.type === 'civic-projects' && 'Civic Project'}
+                  </div>
+                  <div className={styles.yearBadge}>{project.year}</div>
+                </div>
                 <div className={styles.thumbnail}>
                   <img src={project.thumbnail} alt={project.title} />
                   <div className={styles.playOverlay}>
                     <span className={styles.playIcon}>▶</span>
                   </div>
                 </div>
-                <div className={styles.projectInfo}>
+                <div className={styles.projectContent}>
                   <h3>{project.title}</h3>
-                  <p className={styles.meta}>
-                    {project.type === 'documentaries' && 'Documentary'}
-                    {project.type === 'cultural-archive' && 'Cultural Archive'}
-                    {project.type === 'civic-projects' && 'Civic Project'}
-                    {' · '}
-                    {project.year}
-                  </p>
-                  {project.location && (
-                    <p className={styles.location}>{project.location}</p>
-                  )}
+                  <p className={styles.description}>{project.description}</p>
+                  <div className={styles.projectMeta}>
+                    <div className={styles.metaItem}>
+                      <span className={styles.metaLabel}>Location:</span>
+                      <span className={styles.metaValue}>{project.location}</span>
+                    </div>
+                    {project.duration && (
+                      <div className={styles.metaItem}>
+                        <span className={styles.metaLabel}>Duration:</span>
+                        <span className={styles.metaValue}>{project.duration}</span>
+                      </div>
+                    )}
+                    {project.community && (
+                      <div className={styles.metaItem}>
+                        <span className={styles.metaLabel}>Community:</span>
+                        <span className={styles.metaValue}>{project.community}</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+                <div className={styles.cardFooter}>
+                  <button className={styles.viewProject}>View Project</button>
                 </div>
               </article>
             ))}

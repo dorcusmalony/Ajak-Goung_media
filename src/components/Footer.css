@@ -3,12 +3,14 @@
   color: #ffffff;
   margin-top: auto;
   width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 1rem 1rem;
+  padding: 3rem 1rem 0;
 }
 
 .footer-content {
@@ -67,16 +69,22 @@
 .footer-bottom {
   border-top: 1px solid #374151;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   text-align: center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 .footer-bottom p {
   color: #9ca3af;
   font-size: 0.85rem;
-  margin: 0.25rem 0;
+  margin: 0.25rem 0 0 0;
+}
+
+.footer-bottom p:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {

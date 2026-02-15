@@ -221,6 +221,7 @@ const Newsroom = () => {
                 <p className={styles.meta}>
                   {article.author} · {article.role} · {article.date} · {article.category} · {article.readTime}
                 </p>
+                <button className={styles.readFullArticle}>Read Full Article</button>
               </article>
             ))}
           </div>

@@ -18,14 +18,14 @@ const Home = () => {
               for communities, educators, and global audiences.
             </p>
             <div className="hero-actions">
-              <Link to="/media-content" className="btn btn-success">
-                <span className="btn-icon">▶</span> Watch Our Documentaries
+              <Link to="/our-work" className="btn btn-success">
+                <span className="btn-icon"></span> Watch Our Documentaries
               </Link>
               <Link to="/newsroom" className="btn btn-success">
                 <span className="btn-icon"></span> Read Our Stories
               </Link>
               <Link to="/join-support" className="btn btn-success">
-                <span className="btn-icon">🤝</span> Collaborate With Us
+                <span className="btn-icon"></span> Collaborate With Us
               </Link>
             </div>
           </div>

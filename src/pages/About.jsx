@@ -1,4 +1,8 @@
 import './About.css'
+import ajakPhoto from '../assets/ajakdeng.jpeg'
+import peterPhoto from '../assets/peter.jpeg'
+import cholPhoto from '../assets/chol.jpeg'
+import abrahamPhoto from '../assets/abraham.jpeg'
 
 const About = () => {
   return (
@@ -38,6 +42,43 @@ const About = () => {
               global audiences interested in African storytelling. Through this work, we contribute to civic 
               discourse, cultural preservation, and institutional knowledge-building.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mission-vision">
+        <div className="container">
+          <h2>Mission & Vision</h2>
+          <div className="mission-vision-content">
+            <div className="mission-text">
+              <h3>Mission</h3>
+              <p>
+                To preserve, document, and amplify South Sudanese cultural heritage through professional 
+                media production that bridges ancestral wisdom with contemporary storytelling. We serve 
+                as a trusted institutional platform that honors community voices while meeting rigorous 
+                journalistic standards, ensuring authentic representation for current and future generations.
+              </p>
+            </div>
+
+            <div className="vision-text">
+              <h3>Vision</h3>
+              <p>
+                To become the definitive institutional archive and media resource for South Sudanese 
+                cultural knowledge, civic discourse, and community narratives. We envision a future where 
+                our documented heritage serves as both cultural foundation and educational resource, 
+                empowering informed civic participation and preserving invaluable community wisdom 
+                for generations to come.
+              </p>
+            </div>
+          </div>
+
+          <div className="mission-statement">
+            <blockquote>
+              "We document not just events, but the essence of our communities—preserving the depth 
+              of South Sudanese experience with the professionalism it deserves while honoring the 
+              cultural authority from which we speak."
+            </blockquote>
+            <cite> AG Media Editorial Standards</cite>
           </div>
         </div>
       </section>
@@ -106,26 +147,35 @@ const About = () => {
           <div className="founder-profile">
             <div className="founder-image">
               <div className="founder-photo">
-                <span className="photo-icon">👤</span>
+                <img 
+                  src={ajakPhoto} 
+                  alt="Ajak Deng Chiengkou ,Founder and Chief Executive Officer" 
+                  className="founder-img"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <span className="photo-icon" style={{display: 'none'}}></span>
               </div>
             </div>
             <div className="founder-content">
               <div className="founder-info">
-                <h3>Ajoung Garang</h3>
-                <p className="founder-title">Founder & Editorial Director</p>
+                <h3>Ajak Deng Chiengkou </h3>
+                <p className="founder-title">Founder and Chief Executive Officer</p>
                 
                 <div className="founder-bio">
                   <p>
-                    Ajoung Garang brings a dual expertise in South Sudanese cultural knowledge and Australian 
-                    media professionalism to AG Media's mission. With training in documentary filmmaking, 
-                    investigative journalism, and cultural anthropology, Garang established AG Media to address 
-                    the critical gap in professional, culturally-grounded documentation of South Sudanese experience.
+                    Ajak Deng Chiengkou is the Founder and Chief Executive Officer of AG Media Co. Ltd.
+                     He established AG Media as a digital platform and uploaded its first production on 19 November 2008, 
+                     marking the beginning of a long-term commitment to multimedia storytelling and cultural documentation.
                   </p>
                   <p>
-                    Garang's editorial approach combines newsroom rigor with deep community understanding, ensuring 
-                    AG Media maintains both journalistic credibility and cultural authenticity. This dual commitment 
-                    positions the platform as a trusted bridge between South Sudanese communities and broader 
-                    institutional audiences.
+                    A professional journalist, producer, videographer and editor, Ajak leads the company’s strategic direction and editorial standards.
+                     His background in broadcast journalism shapes AG Media’s commitment to accuracy, clarity and cultural integrity. 
+                     He oversees major productions, provides creative direction, and ensures that all work aligns with the company’s mission to preserve and amplify South Sudanese narratives locally and internationally.
+
+                     Under his leadership, AG Media has evolved from a grassroots social channel into a structured production company with a defined creative and operational framework.
                   </p>
                 </div>
 
@@ -167,28 +217,94 @@ const About = () => {
             <div className="team-member">
               <div className="team-photo">
                 <div className="photo-placeholder">
-                  <span className="photo-icon">👤</span>
+                  <img 
+                    src={peterPhoto} 
+                    alt="Peter - Senior Producer" 
+                    className="team-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <span className="photo-icon" style={{display: 'none'}}>👤</span>
                 </div>
               </div>
-              <h3>Team Member Name</h3>
-              <p className="team-role">Senior Producer</p>
+              <h3>Peter Deng Akuei
+</h3>
+              <p className="team-role">Managing Director, South Sudan</p>
               <p className="team-bio">
-                Experienced media producer with expertise in cultural storytelling, documentary production, 
-                and multimedia journalism.
+                
+
+
+Peter Deng Akuei serves as the Managing Director of AG Media in South Sudan. In a focused and lean production structure, he carries both executive responsibility and hands-on technical duties.
+
+Deng functions as Executive Producer, videographer, editor and photographer. Beyond his managerial role, he is directly involved in field production and post-production, and he is the principal editor behind much of the content published on Ajakguong social platforms.
+
+With more than six years of service at AG Media, he has played a significant role in strengthening the company’s digital presence and production consistency. His training in various areas of technology supports efficient workflow management, equipment handling and delivery standards.
+
+Clients working with AG Media in South Sudan engage directly with a professional who understands the full production cycle, from concept development and filming to final edit and distribution.
               </p>
             </div>
 
             <div className="team-member">
               <div className="team-photo">
                 <div className="photo-placeholder">
-                  <span className="photo-icon">👤</span>
+                  <img 
+                    src={cholPhoto} 
+                    alt="Chol - Research & Archives Coordinator" 
+                    className="team-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <span className="photo-icon" style={{display: 'none'}}>👤</span>
                 </div>
               </div>
-              <h3>Team Member Name</h3>
-              <p className="team-role">Research & Archives Coordinator</p>
+              <h3>Chol Philip Achiek (Chopa)</h3>
+              <p className="team-role">Photographer and Videographer</p>
               <p className="team-bio">
-                Cultural researcher and archivist focused on oral history preservation, community documentation, 
-                and educational resource development.
+                
+
+
+Chol Philip Achiek, known professionally as Chopa, is a university student specialising in photography, videography and digital editing. Skilled in photographic and post-production software, he contributes modern visual techniques to AG Media’s creative output.
+
+As a photographer and videographer, he supports event coverage, cultural documentation and digital content development. His technical growth and creative discipline strengthen AG Media’s visual identity across platforms.
+
+Operational Structure
+
+AG Media operates with a compact and highly functional team. Each member holds specialised expertise while remaining capable of operating across multiple production roles. This structure allows the company to maintain quality control, production efficiency and editorial coherence.
+
+From field recording to final edit and publication, AG Media delivers structured, culturally grounded and professionally managed productions.
+              </p>
+            </div>
+
+            <div className="team-member">
+              <div className="team-photo">
+                <div className="photo-placeholder">
+                  <img 
+                    src={abrahamPhoto} 
+                    alt="Abraham - Content Specialist" 
+                    className="team-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <span className="photo-icon" style={{display: 'none'}}>👤</span>
+                </div>
+              </div>
+              <h3>Abraham Akuei Manyok</h3>
+              <p className="team-role">Cinematographer and Technical Specialist</p>
+              <p className="team-bio">
+                
+
+
+Abraham Akuei Manyok is a Computer Science graduate and one of AG Media’s longest-serving cameramen. His technical discipline and practical field experience contribute to the visual stability and consistency of the company’s productions.
+
+He has filmed a wide range of projects, including culturally significant documentation that reflects under-recorded aspects of South Sudanese heritage. His work supports AG Media’s long-term commitment to visual archiving and high production standards.
+
+Akuei combines technical knowledge with field adaptability, ensuring dependable camera operation in diverse production environments.
               </p>
             </div>
           </div>
