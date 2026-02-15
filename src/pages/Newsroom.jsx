@@ -215,13 +215,23 @@ const Newsroom = () => {
         <div className={styles.container}>
           <div className={styles.articlesList}>
             {visibleArticles.map((article) => (
-              <article key={article.id} className={styles.articleItem}>
-                <h3>{article.title}</h3>
-                <p className={styles.standfirst}>{article.standfirst}</p>
-                <p className={styles.meta}>
-                  {article.author} · {article.role} · {article.date} · {article.category} · {article.readTime}
-                </p>
-                <button className={styles.readFullArticle}>Read Full Article</button>
+              <article key={article.id} className={styles.articleCard}>
+                <div className={styles.articleImage}>
+                  <img src="/api/placeholder/300/200" alt={article.title} />
+                  <div className={styles.categoryLabel}>
+                    {article.category}
+                  </div>
+                </div>
+                <div className={styles.articleContent}>
+                  <h3>{article.title}</h3>
+                  <p className={styles.standfirst}>{article.standfirst}</p>
+                  <div className={styles.articleMeta}>
+                    <span className={styles.author}>{article.author}</span>
+                    <span className={styles.date}>{article.date}</span>
+                    <span className={styles.readTime}>{article.readTime}</span>
+                  </div>
+                  <button className={styles.readFullArticle}>Read Full Article</button>
+                </div>
               </article>
             ))}
           </div>

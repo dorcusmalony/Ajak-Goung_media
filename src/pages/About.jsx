@@ -229,21 +229,29 @@ const About = () => {
                   <span className="photo-icon" style={{display: 'none'}}>👤</span>
                 </div>
               </div>
-              <h3>Peter Deng Akuei
-</h3>
-              <p className="team-role">Managing Director, South Sudan</p>
-              <p className="team-bio">
+              <div className="team-member-info">
+                <h3>Peter Deng Akuei</h3>
+                <p className="team-role">Managing Director, South Sudan</p>
                 
-
-
-Peter Deng Akuei serves as the Managing Director of AG Media in South Sudan. In a focused and lean production structure, he carries both executive responsibility and hands-on technical duties.
-
-Deng functions as Executive Producer, videographer, editor and photographer. Beyond his managerial role, he is directly involved in field production and post-production, and he is the principal editor behind much of the content published on Ajakguong social platforms.
-
-With more than six years of service at AG Media, he has played a significant role in strengthening the company’s digital presence and production consistency. His training in various areas of technology supports efficient workflow management, equipment handling and delivery standards.
-
-Clients working with AG Media in South Sudan engage directly with a professional who understands the full production cycle, from concept development and filming to final edit and distribution.
-              </p>
+                <div className="team-bio">
+                  <p>
+                    Peter Deng Akuei serves as the Managing Director of AG Media in South Sudan. In a focused 
+                    and lean production structure, he carries both executive responsibility and hands-on 
+                    technical duties.
+                  </p>
+                  <p>
+                    Deng functions as Executive Producer, videographer, editor and photographer. Beyond his 
+                    managerial role, he is directly involved in field production and post-production, and he 
+                    is the principal editor behind much of the content published on Ajakguong social platforms.
+                  </p>
+                  <p>
+                    With more than six years of service at AG Media, he has played a significant role in 
+                    strengthening the company's digital presence and production consistency. His training in 
+                    various areas of technology supports efficient workflow management, equipment handling 
+                    and delivery standards.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="team-member">
@@ -261,22 +269,24 @@ Clients working with AG Media in South Sudan engage directly with a professional
                   <span className="photo-icon" style={{display: 'none'}}>👤</span>
                 </div>
               </div>
-              <h3>Chol Philip Achiek (Chopa)</h3>
-              <p className="team-role">Photographer and Videographer</p>
-              <p className="team-bio">
+              <div className="team-member-info">
+                <h3>Chol Philip Achiek (Chopa)</h3>
+                <p className="team-role">Photographer and Videographer</p>
                 
-
-
-Chol Philip Achiek, known professionally as Chopa, is a university student specialising in photography, videography and digital editing. Skilled in photographic and post-production software, he contributes modern visual techniques to AG Media’s creative output.
-
-As a photographer and videographer, he supports event coverage, cultural documentation and digital content development. His technical growth and creative discipline strengthen AG Media’s visual identity across platforms.
-
-Operational Structure
-
-AG Media operates with a compact and highly functional team. Each member holds specialised expertise while remaining capable of operating across multiple production roles. This structure allows the company to maintain quality control, production efficiency and editorial coherence.
-
-From field recording to final edit and publication, AG Media delivers structured, culturally grounded and professionally managed productions.
-              </p>
+                <div className="team-bio">
+                  <p>
+                    Chol Philip Achiek, known professionally as Chopa, is a university student specialising 
+                    in photography, videography and digital editing. Skilled in photographic and 
+                    post-production software, he contributes modern visual techniques to AG Media's 
+                    creative output.
+                  </p>
+                  <p>
+                    As a photographer and videographer, he supports event coverage, cultural documentation 
+                    and digital content development. His technical growth and creative discipline strengthen 
+                    AG Media's visual identity across platforms.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="team-member">
@@ -294,18 +304,27 @@ From field recording to final edit and publication, AG Media delivers structured
                   <span className="photo-icon" style={{display: 'none'}}>👤</span>
                 </div>
               </div>
-              <h3>Abraham Akuei Manyok</h3>
-              <p className="team-role">Cinematographer and Technical Specialist</p>
-              <p className="team-bio">
+              <div className="team-member-info">
+                <h3>Abraham Akuei Manyok</h3>
+                <p className="team-role">Cinematographer and Technical Specialist</p>
                 
-
-
-Abraham Akuei Manyok is a Computer Science graduate and one of AG Media’s longest-serving cameramen. His technical discipline and practical field experience contribute to the visual stability and consistency of the company’s productions.
-
-He has filmed a wide range of projects, including culturally significant documentation that reflects under-recorded aspects of South Sudanese heritage. His work supports AG Media’s long-term commitment to visual archiving and high production standards.
-
-Akuei combines technical knowledge with field adaptability, ensuring dependable camera operation in diverse production environments.
-              </p>
+                <div className="team-bio">
+                  <p>
+                    Abraham Akuei Manyok is a Computer Science graduate and one of AG Media's longest-serving 
+                    cameramen. His technical discipline and practical field experience contribute to the 
+                    visual stability and consistency of the company's productions.
+                  </p>
+                  <p>
+                    He has filmed a wide range of projects, including culturally significant documentation 
+                    that reflects under-recorded aspects of South Sudanese heritage. His work supports AG 
+                    Media's long-term commitment to visual archiving and high production standards.
+                  </p>
+                  <p>
+                    Akuei combines technical knowledge with field adaptability, ensuring dependable camera 
+                    operation in diverse production environments.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

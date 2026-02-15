@@ -413,16 +413,24 @@
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 4rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .team-member {
-  padding: 1.5rem;
-  text-align: center;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
   transition: all 0.3s ease;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: start;
+  text-align: left;
+  border: none;
 }
 
 .team-member:hover {
@@ -430,22 +438,27 @@
 }
 
 .team-photo {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .photo-placeholder {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  margin: 0;
   border-radius: 50%;
   background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 4px solid #e6f3ff;
-  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.2);
+  border: 6px solid #ffffff;
+  box-shadow: 0 15px 35px rgba(30, 58, 138, 0.2);
   transition: all 0.3s ease;
   overflow: hidden;
+}
+
+.team-member:hover .photo-placeholder {
+  transform: scale(1.02);
+  box-shadow: 0 20px 45px rgba(30, 58, 138, 0.25);
 }
 
 .team-img {
@@ -461,40 +474,53 @@
   display: none;
 }
 
-.team-member:hover .photo-placeholder {
+.team-member:hover .team-img {
   transform: scale(1.05);
 }
 
-.team-member:hover .team-img {
-  transform: scale(1.1);
-}
-
 .photo-placeholder .photo-icon {
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgba(255, 255, 255, 0.9);
   display: none;
 }
 
+.team-member-info {
+  flex: 1;
+  width: 100%;
+}
+
 .team-member h3 {
   color: #1e3a8a;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
   font-family: 'Times New Roman', 'Georgia', serif;
+  text-align: left;
 }
 
 .team-role {
   color: #6b7280;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-style: italic;
 }
 
 .team-bio {
+  text-align: left;
+}
+
+.team-bio p {
   color: #374151;
-  line-height: 1.7;
+  line-height: 1.8;
   font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+  font-family: 'Times New Roman', 'Georgia', serif;
+}
+
+.team-bio p:last-child {
+  margin-bottom: 0;
 }
 
 /* Commitment Statement Section */
@@ -596,6 +622,30 @@
   
   .team-grid {
     grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .team-member {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .photo-placeholder {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-width: 4px;
+  }
+
+  .team-member h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .team-bio p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
   .about-story,
@@ -628,5 +678,23 @@
 
   .photo-icon {
     font-size: 5rem;
+  }
+
+  .photo-placeholder {
+    width: 160px;
+    height: 160px;
+    border-width: 3px;
+  }
+
+  .photo-placeholder .photo-icon {
+    font-size: 4rem;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+
+  .team-bio p {
+    font-size: 0.85rem;
   }
 }
