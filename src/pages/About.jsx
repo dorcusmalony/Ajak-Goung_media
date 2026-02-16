@@ -1,8 +1,8 @@
 import './About.css'
 import ajakPhoto from '../assets/ajakdeng.jpeg'
-import peterPhoto from '../assets/peter.jpeg'
-import cholPhoto from '../assets/chol.jpeg'
-import abrahamPhoto from '../assets/abraham.jpeg'
+import peterPhoto from '../assets/Peter.jpeg'
+import cholPhoto from '../assets/Chol.jpeg'
+import abrahamPhoto from '../assets/Abraham.jpeg'
 
 const About = () => {
   return (
