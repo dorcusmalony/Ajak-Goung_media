@@ -13,8 +13,7 @@ const Newsroom = () => {
       author: 'Dr. Rebecca Garang',
       role: 'Cultural Researcher',
       date: '2025-02-08',
-      category: 'Features',
-      readTime: '8 min read'
+      category: 'Features'
     },
     {
       id: 3,
@@ -23,8 +22,7 @@ const Newsroom = () => {
       author: 'James Deng',
       role: 'Field Reporter',
       date: '2025-02-05',
-      category: 'Field Reflections',
-      readTime: '6 min read'
+      category: 'Field Reflections'
     },
     {
       id: 4,
@@ -33,8 +31,7 @@ const Newsroom = () => {
       author: 'AG Media Editorial Board',
       role: 'Editorial Team',
       date: '2025-02-03',
-      category: 'Editorial',
-      readTime: '5 min read'
+      category: 'Editorial'
     },
     {
       id: 5,
@@ -43,8 +40,7 @@ const Newsroom = () => {
       author: 'Mary Akol',
       role: 'Education Correspondent',
       date: '2025-01-30',
-      category: 'Features',
-      readTime: '10 min read'
+      category: 'Features'
     },
     {
       id: 6,
@@ -53,8 +49,7 @@ const Newsroom = () => {
       author: 'Sarah Majok',
       role: 'Economics Reporter',
       date: '2025-01-28',
-      category: 'Field Reflections',
-      readTime: '7 min read'
+      category: 'Field Reflections'
     },
     {
       id: 7,
@@ -63,8 +58,7 @@ const Newsroom = () => {
       author: 'Emmanuel Jal',
       role: 'Diaspora Correspondent',
       date: '2025-01-25',
-      category: 'Features',
-      readTime: '9 min read'
+      category: 'Features'
     },
     {
       id: 8,
@@ -73,8 +67,7 @@ const Newsroom = () => {
       author: 'AG Media Editorial Board',
       role: 'Editorial Team',
       date: '2025-01-22',
-      category: 'Editorial',
-      readTime: '4 min read'
+      category: 'Editorial'
     },
     {
       id: 9,
@@ -83,8 +76,7 @@ const Newsroom = () => {
       author: 'Dr. Gabriel Yak',
       role: 'Health Correspondent',
       date: '2025-01-20',
-      category: 'Features',
-      readTime: '11 min read'
+      category: 'Features'
     },
     {
       id: 10,
@@ -93,8 +85,7 @@ const Newsroom = () => {
       author: 'Agnes Lino',
       role: 'Language Documentation Specialist',
       date: '2025-01-18',
-      category: 'Field Reflections',
-      readTime: '6 min read'
+      category: 'Field Reflections'
     },
     {
       id: 11,
@@ -103,8 +94,7 @@ const Newsroom = () => {
       author: 'Rev. Peter Gai',
       role: 'Social Correspondent',
       date: '2025-01-15',
-      category: 'Features',
-      readTime: '8 min read'
+      category: 'Features'
     },
     {
       id: 12,
@@ -113,8 +103,7 @@ const Newsroom = () => {
       author: 'AG Media Editorial Board',
       role: 'Editorial Team',
       date: '2025-01-12',
-      category: 'Editorial',
-      readTime: '5 min read'
+      category: 'Editorial'
     }
   ]
 
@@ -141,7 +130,8 @@ const Newsroom = () => {
         <div className={styles.container}>
           <h1>Newsroom</h1>
           <p>
-            Long-form reporting, field reflections, and editorial analysis documenting South Sudanese civic and cultural realities.
+            Documenting the lived realities, civic experiences and cultural knowledge of South Sudan and its global diaspora.
+Our reporting, field reflections and editorial analysis preserve memory, inform public understanding and support responsible dialogue.
           </p>
         </div>
       </section>
@@ -196,7 +186,6 @@ const Newsroom = () => {
                   <div className={styles.articleMeta}>
                     <span className={styles.author}>{article.author}</span>
                     <span className={styles.date}>{article.date}</span>
-                    <span className={styles.readTime}>{article.readTime}</span>
                   </div>
                   <button className={styles.readFullArticle}>Read Full Article</button>
                 </div>
