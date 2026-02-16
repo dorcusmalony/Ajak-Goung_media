@@ -5,18 +5,6 @@ const Newsroom = () => {
   const [category, setCategory] = useState('all')
   const [visibleCount, setVisibleCount] = useState(10)
 
-  const featuredArticle = {
-    id: 1,
-    title: 'Youth Civic Engagement in South Sudan: A Generation Steps Forward',
-    standfirst: 'An examination of emerging youth-led civic initiatives across South Sudan\'s urban centers, documenting new forms of political participation and community leadership.',
-    author: 'AG Media Editorial Team',
-    role: 'Field Correspondent',
-    date: '2025-02-10',
-    category: 'Features',
-    image: '/api/placeholder/600/400',
-    readTime: '12 min read'
-  }
-
   const articles = [
     {
       id: 2,
@@ -148,33 +136,13 @@ const Newsroom = () => {
 
   return (
     <div className={styles.newsroom}>
-      {/* Minimal Hero */}
+      {/* Hero Section */}
       <section className={styles.newsroomHero}>
         <div className={styles.container}>
           <h1>Newsroom</h1>
           <p>
             Long-form reporting, field reflections, and editorial analysis documenting South Sudanese civic and cultural realities.
           </p>
-        </div>
-      </section>
-
-      {/* Featured Article */}
-      <section className={styles.featuredSection}>
-        <div className={styles.container}>
-          <article className={styles.featuredArticle}>
-            <div className={styles.featuredImage}>
-              <img src={featuredArticle.image} alt={featuredArticle.title} />
-            </div>
-            <div className={styles.featuredContent}>
-              <span className={styles.featuredLabel}>Featured</span>
-              <h2>{featuredArticle.title}</h2>
-              <p className={styles.standfirst}>{featuredArticle.standfirst}</p>
-              <p className={styles.meta}>
-                {featuredArticle.author} · {featuredArticle.date} · {featuredArticle.category} · {featuredArticle.readTime}
-              </p>
-              <button className={styles.readMore}>Read Full Article</button>
-            </div>
-          </article>
         </div>
       </section>
 
