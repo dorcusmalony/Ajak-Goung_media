@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './Newsroom.module.css'
+import documentaryImage from '../assets/image 1.avif'
 
 const Newsroom = () => {
   const [category, setCategory] = useState('all')
@@ -13,7 +14,8 @@ const Newsroom = () => {
       author: 'Dr. Rebecca Garang',
       role: 'Cultural Researcher',
       date: '2025-02-08',
-      category: 'Features'
+      category: 'Features',
+      image: documentaryImage
     },
     {
       id: 3,
@@ -175,10 +177,7 @@ Our reporting, field reflections and editorial analysis preserve memory, inform 
             {visibleArticles.map((article) => (
               <article key={article.id} className={styles.articleCard}>
                 <div className={styles.articleImage}>
-                  <img src="/api/placeholder/300/200" alt={article.title} />
-                  <div className={styles.categoryLabel}>
-                    {article.category}
-                  </div>
+                  <img src={article.image || "/api/placeholder/300/200"} alt={article.title} />
                 </div>
                 <div className={styles.articleContent}>
                   <h3>{article.title}</h3>

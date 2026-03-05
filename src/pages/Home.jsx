@@ -69,6 +69,24 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="what-we-do-section">
+        <div className="container">
+          <div className="what-we-do-content">
+            <div className="image-holder">
+              <div className="placeholder-image">
+                <span className="image-text">Image Placeholder</span>
+              </div>
+            </div>
+            <div className="text-content">
+              <h2>We greatly Document Cultural and community Dialogue</h2>
+              <p className="what-we-do-description">
+                We are a community-centered media organization dedicated to bridging the gap between lived experiences and public understanding in South Sudanese communities worldwide. Through our comprehensive field documentation, we solve the critical problem of cultural knowledge loss by systematically preserving oral traditions, traditional healing practices, and indigenous languages in digital archives that serve both current and future generations. We provide solutions to social fragmentation by facilitating community dialogue sessions that bring together traditional authorities and modern stakeholders to address conflict resolution and reconciliation. Our reporting on women's leadership in economic cooperatives, educational infrastructure challenges, and diaspora civic participation creates pathways for policy makers and community leaders to understand real-world impacts and develop targeted interventions. We serve as a vital information bridge, ensuring that rural voices reach urban decision-makers, that diaspora perspectives inform homeland discussions, and that traditional wisdom guides contemporary solutions. By maintaining ethical documentation practices and cultural authenticity in our reporting, we provide communities with the tools they need to preserve their heritage while adapting to modern challenges, ultimately strengthening social cohesion and informed public discourse across South Sudanese society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="featured-projects">
         <div className="container">
           <h2>Featured Projects</h2>
